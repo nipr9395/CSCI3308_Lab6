@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm bg-light">
+      <ul class="navbar-nav">
+        <li class = "nav-item">
+          <a class = "nav-link" href="profile_bootstrap.html">Home</a>
+        </li>
+      </ul>
+    </nav>
+    <h1>Add New Interest</h1>
+    <div class="form-group">
+      <label for="interestNameInput">Interest Name</label>
+      <input type="text" class="form-control" id="interestNameInput" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <label for="interestText">Text About Interest</label>
+      <textarea type="text" class="form-control" id="interestText" rows="3"></textarea>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm">
+          <form>
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Upload Local Image:</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+          </form>
+        </div>
+        <div class="col-sm">
+          <form>
+            <div class="form-group">
+              <label for="tweetNumber">Select # of Tweets to Display:</label>
+              <select class="form-control" id="tweetNumber">
+                <option>1</option>
+                <option>10</option>
+                <option>50</option>
+                <option>100</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+      <p>On a Scale of 1-5, how interested in this are you?</p>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+        <label class="form-check-label" for="inlineRadio1">1</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+        <label class="form-check-label" for="inlineRadio2">2</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+        <label class="form-check-label" for="inlineRadio3">3</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+        <label class="form-check-label" for="inlineRadio4">4</label>
+      </div>
+      <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+        <label class="form-check-label" for="inlineRadio5">5</label>
+      </div>
+    </div>
+    <br>
+    <div class="container-fluid">
+      <p>Login to Finish Submitting</p>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="form-group">
+            <input type="text" class="form-control" id="userForm" placeholder="Username">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="form-group">
+            <input type="password" class="form-control" id="passForm" placeholder="Password">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+  </html>
